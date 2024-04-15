@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <link rel="stylesheet" href="CSS/variable.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+    </style>
+  </head>
+  <body>
+    <main class="card">
+        <div class="advice">
+            <h2 class="advice-id">Advise</h2>
+            <p id="conselho" class="advice-description">lorem</p>
+            <picture>
+                <source srcset="src/pattern-divider-mobile.svg" media="(max-width: 768px)">
+                <img src="src/pattern-divider-desktop.svg" alt="Pattern divider">
+            </picture>
+            <button id="btn" class="advice-update">
+                <img src="src/icon-dice.svg" alt="Dice icon">
+            </button> 
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
